@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!-- Tailwind CSS CDN -->
+     <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Responsive Navbar -->
+     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-lg">GREENDEN</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-6 h-6 md:hidden">
+            <path fill-rule="evenodd"
+                d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Zm0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd" />
+        </svg>
+
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="./index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="./product.html">Products</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Products List -->
+     <section class="text-center">
+        <h1 class="text-3xl font-bold mt-5">Our Products</h1>
+        <input type="text" value="" class="border border-gray-500 p-3 m-3" style="width: 80%;" placeholder="Search for a Product...">
+
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-7">
+            <div class="">
+                <img src="./Images/bestseller_1.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="font-semibold">Rose Plant</h1>
+                <p>Price varies by variety and bloom size</p>
+                <p class="font-semibold">$12 – $35</p>
+            </div>
+
+            <div>
+                <img src="./Images/bestseller_2.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="font-semibold">Spider Plant</h1>
+                <p>Easy-care, fast-growing indoor plant</p>
+                <p class="font-semibold">$8 – $15</p>
+            </div>
+
+            <div>
+                <img src="./Images/bestseller_3.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="font-semibold">ZZ Plant</h1>
+                <p>Low-light tolerant, slow grower</p>
+                <p class="font-semibold">$15 – $30</p>
+            </div>
+
+            <div>
+                <img src="./Images/bestseller_4.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="font-semibold">Money Plant</h1>
+                <p>Usually refers to Pothos or Jade</p>
+                <p class="font-semibold">$10 – $25</p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+            <div class="">
+                <img src="./Images/bestseller_5.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="font-semibold"></h1>Anthurium</h1>
+                <p>Colorful blooms, tropical look</p>
+                <p class="font-semibold">$18 – $40</p>
+            </div>
+
+            <div>
+                <img src="./Images/bestseller_6.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="font-semibold">Snake Plant</h1>
+                <p>	Air-purifying, very hardy</p>
+                <p class="font-semibold">$12 – $30</p>
+            </div>
+
+            <div>
+                <img src="./Images/bestseller_7.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="font-semibold">Maidenhair Fern</h1>
+                <p>	Needs humidity, delicate leaves</p>
+                <p class="font-semibold">$10 – $20</p>
+            </div>
+
+            <div>
+                <img src="./Images/bestseller_8.jpg" alt="" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="font-semibold">Spineless Yucca</h1>
+                <p>Indoor tree, slow grower</p>
+                <p class="font-semibold">$20 – $40</p>
+            </div>
+        </div>
+     </section>
+
+     <!-- Footer -->
+       <section class="bg-green-100 p-10 flex flex-col gap-3 mt-5">
+        <h1 class="text-4xl font-bold">GREENDEN</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quibusdam nesciunt officiis iure odio.</P>
+        <p>@ 2021 Greenday.com</p>
+       </section>
+</body>
+</html>
